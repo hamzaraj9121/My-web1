@@ -1,0 +1,52 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+ .py-23{
+    background-color: rgb(17, 99, 222); 
+    
+ } 
+
+/* form{
+  background-color: rgb(105, 185, 40);
+} */
+.container-fluid{
+  background-color: blue;
+}
+/* .container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+} */
+
+footer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  #fieldN{
+     font-weight: bold;
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.add-container{
+  border: 2px solid red;
+}
+
+.box{
+  border: 2px solid red;
+  height: 200px;
+  width: 200px;
+  gap: 10px;
+}
+.container-box{
+  gap: 20px;
+  display: flex;
+
+}
